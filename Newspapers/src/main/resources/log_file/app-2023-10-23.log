@@ -1,0 +1,201 @@
+14:38:46.153 [restartedMain] INFO  NewspapersApplication[logStarting:51] - Starting NewspapersApplication using Java 17.0.8 with PID 6076 (C:\Users\qdh1\Desktop\Newspapers\newspapers\Newspapers\target\classes started by huan in C:\Users\qdh1\Desktop\Newspapers)
+14:38:46.160 [restartedMain] INFO  NewspapersApplication[logStartupProfileInfo:637] - No active profile set, falling back to 1 default profile: "default"
+14:38:46.221 [restartedMain] INFO  DevToolsPropertyDefaultsPostProcessor[logTo:250] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+14:38:46.221 [restartedMain] INFO  DevToolsPropertyDefaultsPostProcessor[logTo:250] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+14:38:46.954 [restartedMain] INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:138] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+14:38:47.014 [restartedMain] INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:208] - Finished Spring Data repository scanning in 52 ms. Found 3 JPA repository interfaces.
+14:38:47.562 [restartedMain] INFO  TomcatWebServer[initialize:108] - Tomcat initialized with port(s): 8080 (http)
+14:38:47.569 [restartedMain] INFO  Http11NioProtocol[log:173] - Initializing ProtocolHandler ["http-nio-8080"]
+14:38:47.570 [restartedMain] INFO  StandardService[log:173] - Starting service [Tomcat]
+14:38:47.570 [restartedMain] INFO  StandardEngine[log:173] - Starting Servlet engine: [Apache Tomcat/10.1.13]
+14:38:47.626 [restartedMain] INFO  [/][log:173] - Initializing Spring embedded WebApplicationContext
+14:38:47.627 [restartedMain] INFO  ServletWebServerApplicationContext[prepareWebApplicationContext:291] - Root WebApplicationContext: initialization completed in 1405 ms
+14:38:47.782 [restartedMain] INFO  LogHelper[logPersistenceUnitInformation:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+14:38:47.862 [restartedMain] INFO  Version[logVersion:44] - HHH000412: Hibernate ORM core version 6.2.9.Final
+14:38:47.865 [restartedMain] INFO  Environment[<clinit>:191] - HHH000406: Using bytecode reflection optimizer
+14:38:48.022 [restartedMain] INFO  BytecodeProviderInitiator[buildBytecodeProvider:53] - HHH000021: Bytecode provider name : bytebuddy
+14:38:48.197 [restartedMain] INFO  SpringPersistenceUnitInfo[addTransformer:87] - No LoadTimeWeaver setup: ignoring JPA class transformer
+14:38:48.218 [restartedMain] INFO  HikariDataSource[getConnection:110] - HikariPool-1 - Starting...
+14:38:48.415 [restartedMain] INFO  HikariPool[checkFailFast:565] - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5653a872
+14:38:48.416 [restartedMain] INFO  HikariDataSource[getConnection:123] - HikariPool-1 - Start completed.
+14:38:48.803 [restartedMain] INFO  BytecodeProviderInitiator[buildBytecodeProvider:53] - HHH000021: Bytecode provider name : bytebuddy
+14:38:49.441 [restartedMain] INFO  JtaPlatformInitiator[initiateService:51] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+14:38:49.533 [restartedMain] INFO  LocalContainerEntityManagerFactoryBean[buildNativeEntityManagerFactory:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+14:38:49.889 [restartedMain] WARN  JpaBaseConfiguration$JpaWebConfiguration[openEntityManagerInViewInterceptor:231] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+14:38:50.267 [restartedMain] INFO  OptionalLiveReloadServer[startServer:59] - LiveReload server is running on port 35729
+14:38:50.283 [restartedMain] INFO  Http11NioProtocol[log:173] - Starting ProtocolHandler ["http-nio-8080"]
+14:38:50.347 [restartedMain] INFO  TomcatWebServer[start:220] - Tomcat started on port(s): 8080 (http) with context path ''
+14:38:50.365 [restartedMain] INFO  NewspapersApplication[logStarted:57] - Started NewspapersApplication in 4.692 seconds (process running for 5.569)
+14:39:49.057 [File Watcher] INFO  LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener[onApplicationEvent:211] - Restarting due to 2 class path changes (1 addition, 0 deletions, 1 modification)
+14:39:49.086 [Thread-5] INFO  Http11NioProtocol[log:173] - Pausing ProtocolHandler ["http-nio-8080"]
+14:39:49.087 [Thread-5] INFO  StandardService[log:173] - Stopping service [Tomcat]
+14:39:49.091 [Thread-5] INFO  Http11NioProtocol[log:173] - Stopping ProtocolHandler ["http-nio-8080"]
+14:39:49.093 [Thread-5] INFO  Http11NioProtocol[log:173] - Destroying ProtocolHandler ["http-nio-8080"]
+14:39:49.096 [Thread-5] INFO  LocalContainerEntityManagerFactoryBean[destroy:650] - Closing JPA EntityManagerFactory for persistence unit 'default'
+14:39:49.101 [Thread-5] INFO  HikariDataSource[close:350] - HikariPool-1 - Shutdown initiated...
+14:39:49.105 [Thread-5] INFO  HikariDataSource[close:352] - HikariPool-1 - Shutdown completed.
+14:39:49.219 [restartedMain] INFO  NewspapersApplication[logStarting:51] - Starting NewspapersApplication using Java 17.0.8 with PID 6076 (C:\Users\qdh1\Desktop\Newspapers\newspapers\Newspapers\target\classes started by huan in C:\Users\qdh1\Desktop\Newspapers)
+14:39:49.219 [restartedMain] INFO  NewspapersApplication[logStartupProfileInfo:637] - No active profile set, falling back to 1 default profile: "default"
+14:39:49.587 [restartedMain] INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:138] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+14:39:49.618 [restartedMain] INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:208] - Finished Spring Data repository scanning in 30 ms. Found 3 JPA repository interfaces.
+14:39:49.771 [restartedMain] INFO  TomcatWebServer[initialize:108] - Tomcat initialized with port(s): 8080 (http)
+14:39:49.772 [restartedMain] INFO  Http11NioProtocol[log:173] - Initializing ProtocolHandler ["http-nio-8080"]
+14:39:49.772 [restartedMain] INFO  StandardService[log:173] - Starting service [Tomcat]
+14:39:49.772 [restartedMain] INFO  StandardEngine[log:173] - Starting Servlet engine: [Apache Tomcat/10.1.13]
+14:39:49.810 [restartedMain] INFO  [/][log:173] - Initializing Spring embedded WebApplicationContext
+14:39:49.811 [restartedMain] INFO  ServletWebServerApplicationContext[prepareWebApplicationContext:291] - Root WebApplicationContext: initialization completed in 589 ms
+14:39:49.861 [restartedMain] INFO  LogHelper[logPersistenceUnitInformation:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+14:39:49.871 [restartedMain] INFO  BytecodeProviderInitiator[buildBytecodeProvider:53] - HHH000021: Bytecode provider name : bytebuddy
+14:39:49.871 [restartedMain] INFO  SpringPersistenceUnitInfo[addTransformer:87] - No LoadTimeWeaver setup: ignoring JPA class transformer
+14:39:49.872 [restartedMain] INFO  HikariDataSource[getConnection:110] - HikariPool-2 - Starting...
+14:39:49.940 [restartedMain] INFO  HikariPool[checkFailFast:565] - HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@de9e465
+14:39:49.941 [restartedMain] INFO  HikariDataSource[getConnection:123] - HikariPool-2 - Start completed.
+14:39:49.988 [restartedMain] INFO  BytecodeProviderInitiator[buildBytecodeProvider:53] - HHH000021: Bytecode provider name : bytebuddy
+14:39:50.037 [restartedMain] INFO  JtaPlatformInitiator[initiateService:51] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+14:39:50.109 [restartedMain] INFO  LocalContainerEntityManagerFactoryBean[buildNativeEntityManagerFactory:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+14:39:50.300 [restartedMain] WARN  JpaBaseConfiguration$JpaWebConfiguration[openEntityManagerInViewInterceptor:231] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+14:39:50.474 [restartedMain] INFO  OptionalLiveReloadServer[startServer:59] - LiveReload server is running on port 35729
+14:39:50.490 [restartedMain] INFO  Http11NioProtocol[log:173] - Starting ProtocolHandler ["http-nio-8080"]
+14:39:50.495 [restartedMain] INFO  TomcatWebServer[start:220] - Tomcat started on port(s): 8080 (http) with context path ''
+14:39:50.506 [restartedMain] INFO  NewspapersApplication[logStarted:57] - Started NewspapersApplication in 1.342 seconds (process running for 65.71)
+14:39:50.510 [restartedMain] INFO  ConditionEvaluationDeltaLoggingListener[onApplicationEvent:63] - Condition evaluation unchanged
+14:40:35.363 [http-nio-8080-exec-2] INFO  [/][log:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:40:35.364 [http-nio-8080-exec-2] INFO  DispatcherServlet[initServletBean:532] - Initializing Servlet 'dispatcherServlet'
+14:40:35.365 [http-nio-8080-exec-2] INFO  DispatcherServlet[initServletBean:554] - Completed initialization in 1 ms
+15:42:11.883 [File Watcher] INFO  LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener[onApplicationEvent:211] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+15:42:11.984 [Thread-7] INFO  Http11NioProtocol[log:173] - Pausing ProtocolHandler ["http-nio-8080"]
+15:42:11.985 [Thread-7] INFO  StandardService[log:173] - Stopping service [Tomcat]
+15:42:11.989 [Thread-7] INFO  [/][log:173] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+15:42:12.002 [Thread-7] INFO  Http11NioProtocol[log:173] - Stopping ProtocolHandler ["http-nio-8080"]
+15:42:12.004 [Thread-7] INFO  Http11NioProtocol[log:173] - Destroying ProtocolHandler ["http-nio-8080"]
+15:42:12.015 [Thread-7] INFO  LocalContainerEntityManagerFactoryBean[destroy:650] - Closing JPA EntityManagerFactory for persistence unit 'default'
+15:42:12.030 [Thread-7] INFO  HikariDataSource[close:350] - HikariPool-2 - Shutdown initiated...
+15:42:12.033 [Thread-7] INFO  HikariDataSource[close:352] - HikariPool-2 - Shutdown completed.
+15:42:12.396 [restartedMain] INFO  NewspapersApplication[logStarting:51] - Starting NewspapersApplication using Java 17.0.8 with PID 6076 (C:\Users\qdh1\Desktop\Newspapers\newspapers\Newspapers\target\classes started by huan in C:\Users\qdh1\Desktop\Newspapers)
+15:42:12.396 [restartedMain] INFO  NewspapersApplication[logStartupProfileInfo:637] - No active profile set, falling back to 1 default profile: "default"
+15:42:12.936 [restartedMain] INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:138] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+15:42:12.981 [restartedMain] INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:208] - Finished Spring Data repository scanning in 43 ms. Found 3 JPA repository interfaces.
+15:42:13.253 [restartedMain] INFO  TomcatWebServer[initialize:108] - Tomcat initialized with port(s): 8080 (http)
+15:42:13.255 [restartedMain] INFO  Http11NioProtocol[log:173] - Initializing ProtocolHandler ["http-nio-8080"]
+15:42:13.255 [restartedMain] INFO  StandardService[log:173] - Starting service [Tomcat]
+15:42:13.255 [restartedMain] INFO  StandardEngine[log:173] - Starting Servlet engine: [Apache Tomcat/10.1.13]
+15:42:13.327 [restartedMain] INFO  [/][log:173] - Initializing Spring embedded WebApplicationContext
+15:42:13.327 [restartedMain] INFO  ServletWebServerApplicationContext[prepareWebApplicationContext:291] - Root WebApplicationContext: initialization completed in 928 ms
+15:42:13.415 [restartedMain] INFO  LogHelper[logPersistenceUnitInformation:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+15:42:13.432 [restartedMain] INFO  BytecodeProviderInitiator[buildBytecodeProvider:53] - HHH000021: Bytecode provider name : bytebuddy
+15:42:13.433 [restartedMain] INFO  SpringPersistenceUnitInfo[addTransformer:87] - No LoadTimeWeaver setup: ignoring JPA class transformer
+15:42:13.435 [restartedMain] INFO  HikariDataSource[getConnection:110] - HikariPool-3 - Starting...
+15:42:13.515 [restartedMain] INFO  HikariPool[checkFailFast:565] - HikariPool-3 - Added connection org.postgresql.jdbc.PgConnection@2b36e5f9
+15:42:13.516 [restartedMain] INFO  HikariDataSource[getConnection:123] - HikariPool-3 - Start completed.
+15:42:13.585 [restartedMain] INFO  BytecodeProviderInitiator[buildBytecodeProvider:53] - HHH000021: Bytecode provider name : bytebuddy
+15:42:13.689 [restartedMain] INFO  JtaPlatformInitiator[initiateService:51] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+15:42:13.773 [restartedMain] INFO  LocalContainerEntityManagerFactoryBean[buildNativeEntityManagerFactory:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+15:42:13.985 [restartedMain] WARN  JpaBaseConfiguration$JpaWebConfiguration[openEntityManagerInViewInterceptor:231] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+15:42:14.162 [restartedMain] INFO  OptionalLiveReloadServer[startServer:59] - LiveReload server is running on port 35729
+15:42:14.175 [restartedMain] INFO  Http11NioProtocol[log:173] - Starting ProtocolHandler ["http-nio-8080"]
+15:42:14.180 [restartedMain] INFO  TomcatWebServer[start:220] - Tomcat started on port(s): 8080 (http) with context path ''
+15:42:14.190 [restartedMain] INFO  NewspapersApplication[logStarted:57] - Started NewspapersApplication in 1.853 seconds (process running for 3809.394)
+15:42:14.192 [restartedMain] INFO  ConditionEvaluationDeltaLoggingListener[onApplicationEvent:63] - Condition evaluation unchanged
+15:44:05.247 [File Watcher] INFO  LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener[onApplicationEvent:211] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+15:44:05.281 [Thread-11] INFO  Http11NioProtocol[log:173] - Pausing ProtocolHandler ["http-nio-8080"]
+15:44:05.281 [Thread-11] INFO  StandardService[log:173] - Stopping service [Tomcat]
+15:44:05.283 [Thread-11] INFO  Http11NioProtocol[log:173] - Stopping ProtocolHandler ["http-nio-8080"]
+15:44:05.285 [Thread-11] INFO  Http11NioProtocol[log:173] - Destroying ProtocolHandler ["http-nio-8080"]
+15:44:05.287 [Thread-11] INFO  LocalContainerEntityManagerFactoryBean[destroy:650] - Closing JPA EntityManagerFactory for persistence unit 'default'
+15:44:05.287 [Thread-11] INFO  HikariDataSource[close:350] - HikariPool-3 - Shutdown initiated...
+15:44:05.290 [Thread-11] INFO  HikariDataSource[close:352] - HikariPool-3 - Shutdown completed.
+15:44:05.356 [restartedMain] INFO  NewspapersApplication[logStarting:51] - Starting NewspapersApplication using Java 17.0.8 with PID 6076 (C:\Users\qdh1\Desktop\Newspapers\newspapers\Newspapers\target\classes started by huan in C:\Users\qdh1\Desktop\Newspapers)
+15:44:05.356 [restartedMain] INFO  NewspapersApplication[logStartupProfileInfo:637] - No active profile set, falling back to 1 default profile: "default"
+15:44:05.593 [restartedMain] INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:138] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+15:44:05.612 [restartedMain] INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:208] - Finished Spring Data repository scanning in 18 ms. Found 3 JPA repository interfaces.
+15:44:05.693 [restartedMain] INFO  TomcatWebServer[initialize:108] - Tomcat initialized with port(s): 8080 (http)
+15:44:05.694 [restartedMain] INFO  Http11NioProtocol[log:173] - Initializing ProtocolHandler ["http-nio-8080"]
+15:44:05.694 [restartedMain] INFO  StandardService[log:173] - Starting service [Tomcat]
+15:44:05.694 [restartedMain] INFO  StandardEngine[log:173] - Starting Servlet engine: [Apache Tomcat/10.1.13]
+15:44:05.722 [restartedMain] INFO  [/][log:173] - Initializing Spring embedded WebApplicationContext
+15:44:05.722 [restartedMain] INFO  ServletWebServerApplicationContext[prepareWebApplicationContext:291] - Root WebApplicationContext: initialization completed in 365 ms
+15:44:05.753 [restartedMain] INFO  LogHelper[logPersistenceUnitInformation:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+15:44:05.759 [restartedMain] INFO  BytecodeProviderInitiator[buildBytecodeProvider:53] - HHH000021: Bytecode provider name : bytebuddy
+15:44:05.759 [restartedMain] INFO  SpringPersistenceUnitInfo[addTransformer:87] - No LoadTimeWeaver setup: ignoring JPA class transformer
+15:44:05.761 [restartedMain] INFO  HikariDataSource[getConnection:110] - HikariPool-4 - Starting...
+15:44:05.805 [restartedMain] INFO  HikariPool[checkFailFast:565] - HikariPool-4 - Added connection org.postgresql.jdbc.PgConnection@5dc37045
+15:44:05.805 [restartedMain] INFO  HikariDataSource[getConnection:123] - HikariPool-4 - Start completed.
+15:44:05.834 [restartedMain] INFO  BytecodeProviderInitiator[buildBytecodeProvider:53] - HHH000021: Bytecode provider name : bytebuddy
+15:44:05.857 [restartedMain] INFO  JtaPlatformInitiator[initiateService:51] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+15:44:05.892 [restartedMain] INFO  LocalContainerEntityManagerFactoryBean[buildNativeEntityManagerFactory:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+15:44:06.011 [restartedMain] WARN  JpaBaseConfiguration$JpaWebConfiguration[openEntityManagerInViewInterceptor:231] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+15:44:06.135 [restartedMain] INFO  OptionalLiveReloadServer[startServer:59] - LiveReload server is running on port 35729
+15:44:06.142 [restartedMain] INFO  Http11NioProtocol[log:173] - Starting ProtocolHandler ["http-nio-8080"]
+15:44:06.146 [restartedMain] INFO  TomcatWebServer[start:220] - Tomcat started on port(s): 8080 (http) with context path ''
+15:44:06.154 [restartedMain] INFO  NewspapersApplication[logStarted:57] - Started NewspapersApplication in 0.819 seconds (process running for 3921.358)
+15:44:06.157 [restartedMain] INFO  ConditionEvaluationDeltaLoggingListener[onApplicationEvent:63] - Condition evaluation unchanged
+15:48:25.129 [File Watcher] INFO  LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener[onApplicationEvent:211] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+15:48:25.174 [Thread-15] INFO  Http11NioProtocol[log:173] - Pausing ProtocolHandler ["http-nio-8080"]
+15:48:25.175 [Thread-15] INFO  StandardService[log:173] - Stopping service [Tomcat]
+15:48:25.178 [Thread-15] INFO  Http11NioProtocol[log:173] - Stopping ProtocolHandler ["http-nio-8080"]
+15:48:25.180 [Thread-15] INFO  Http11NioProtocol[log:173] - Destroying ProtocolHandler ["http-nio-8080"]
+15:48:25.182 [Thread-15] INFO  LocalContainerEntityManagerFactoryBean[destroy:650] - Closing JPA EntityManagerFactory for persistence unit 'default'
+15:48:25.183 [Thread-15] INFO  HikariDataSource[close:350] - HikariPool-4 - Shutdown initiated...
+15:48:25.186 [Thread-15] INFO  HikariDataSource[close:352] - HikariPool-4 - Shutdown completed.
+15:48:25.295 [restartedMain] INFO  NewspapersApplication[logStarting:51] - Starting NewspapersApplication using Java 17.0.8 with PID 6076 (C:\Users\qdh1\Desktop\Newspapers\newspapers\Newspapers\target\classes started by huan in C:\Users\qdh1\Desktop\Newspapers)
+15:48:25.295 [restartedMain] INFO  NewspapersApplication[logStartupProfileInfo:637] - No active profile set, falling back to 1 default profile: "default"
+15:48:25.825 [restartedMain] INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:138] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+15:48:25.866 [restartedMain] INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:208] - Finished Spring Data repository scanning in 40 ms. Found 3 JPA repository interfaces.
+15:48:26.095 [restartedMain] INFO  TomcatWebServer[initialize:108] - Tomcat initialized with port(s): 8080 (http)
+15:48:26.095 [restartedMain] INFO  Http11NioProtocol[log:173] - Initializing ProtocolHandler ["http-nio-8080"]
+15:48:26.096 [restartedMain] INFO  StandardService[log:173] - Starting service [Tomcat]
+15:48:26.096 [restartedMain] INFO  StandardEngine[log:173] - Starting Servlet engine: [Apache Tomcat/10.1.13]
+15:48:26.136 [restartedMain] INFO  [/][log:173] - Initializing Spring embedded WebApplicationContext
+15:48:26.136 [restartedMain] INFO  ServletWebServerApplicationContext[prepareWebApplicationContext:291] - Root WebApplicationContext: initialization completed in 838 ms
+15:48:26.239 [restartedMain] INFO  LogHelper[logPersistenceUnitInformation:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+15:48:26.258 [restartedMain] INFO  BytecodeProviderInitiator[buildBytecodeProvider:53] - HHH000021: Bytecode provider name : bytebuddy
+15:48:26.258 [restartedMain] INFO  SpringPersistenceUnitInfo[addTransformer:87] - No LoadTimeWeaver setup: ignoring JPA class transformer
+15:48:26.260 [restartedMain] INFO  HikariDataSource[getConnection:110] - HikariPool-5 - Starting...
+15:48:26.371 [restartedMain] INFO  HikariPool[checkFailFast:565] - HikariPool-5 - Added connection org.postgresql.jdbc.PgConnection@1ad2f63
+15:48:26.371 [restartedMain] INFO  HikariDataSource[getConnection:123] - HikariPool-5 - Start completed.
+15:48:26.432 [restartedMain] INFO  BytecodeProviderInitiator[buildBytecodeProvider:53] - HHH000021: Bytecode provider name : bytebuddy
+15:48:26.488 [restartedMain] INFO  JtaPlatformInitiator[initiateService:51] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+15:48:26.578 [restartedMain] INFO  LocalContainerEntityManagerFactoryBean[buildNativeEntityManagerFactory:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+15:48:26.877 [restartedMain] WARN  JpaBaseConfiguration$JpaWebConfiguration[openEntityManagerInViewInterceptor:231] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+15:48:27.061 [restartedMain] INFO  OptionalLiveReloadServer[startServer:59] - LiveReload server is running on port 35729
+15:48:27.077 [restartedMain] INFO  Http11NioProtocol[log:173] - Starting ProtocolHandler ["http-nio-8080"]
+15:48:27.082 [restartedMain] INFO  TomcatWebServer[start:220] - Tomcat started on port(s): 8080 (http) with context path ''
+15:48:27.090 [restartedMain] INFO  NewspapersApplication[logStarted:57] - Started NewspapersApplication in 1.839 seconds (process running for 4182.294)
+15:48:27.092 [restartedMain] INFO  ConditionEvaluationDeltaLoggingListener[onApplicationEvent:63] - Condition evaluation unchanged
+15:53:58.354 [SpringApplicationShutdownHook] INFO  LocalContainerEntityManagerFactoryBean[destroy:650] - Closing JPA EntityManagerFactory for persistence unit 'default'
+15:53:58.355 [SpringApplicationShutdownHook] INFO  HikariDataSource[close:350] - HikariPool-5 - Shutdown initiated...
+15:53:58.363 [SpringApplicationShutdownHook] INFO  HikariDataSource[close:352] - HikariPool-5 - Shutdown completed.
+16:00:13.728 [restartedMain] INFO  NewspapersApplication[logStarting:51] - Starting NewspapersApplication using Java 17.0.8 with PID 19472 (C:\Users\qdh1\Desktop\Newspapers\newspapers\Newspapers\target\classes started by huan in C:\Users\qdh1\Desktop\Newspapers)
+16:00:13.737 [restartedMain] INFO  NewspapersApplication[logStartupProfileInfo:637] - No active profile set, falling back to 1 default profile: "default"
+16:00:13.904 [restartedMain] INFO  DevToolsPropertyDefaultsPostProcessor[logTo:250] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:00:13.905 [restartedMain] INFO  DevToolsPropertyDefaultsPostProcessor[logTo:250] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+16:00:15.269 [restartedMain] INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:138] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+16:00:15.359 [restartedMain] INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:208] - Finished Spring Data repository scanning in 79 ms. Found 3 JPA repository interfaces.
+16:00:16.254 [restartedMain] INFO  TomcatWebServer[initialize:108] - Tomcat initialized with port(s): 8080 (http)
+16:00:16.268 [restartedMain] INFO  Http11NioProtocol[log:173] - Initializing ProtocolHandler ["http-nio-8080"]
+16:00:16.273 [restartedMain] INFO  StandardService[log:173] - Starting service [Tomcat]
+16:00:16.274 [restartedMain] INFO  StandardEngine[log:173] - Starting Servlet engine: [Apache Tomcat/10.1.13]
+16:00:16.438 [restartedMain] INFO  [/][log:173] - Initializing Spring embedded WebApplicationContext
+16:00:16.439 [restartedMain] INFO  ServletWebServerApplicationContext[prepareWebApplicationContext:291] - Root WebApplicationContext: initialization completed in 2533 ms
+16:00:16.725 [restartedMain] INFO  LogHelper[logPersistenceUnitInformation:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+16:00:16.829 [restartedMain] INFO  Version[logVersion:44] - HHH000412: Hibernate ORM core version 6.2.9.Final
+16:00:16.832 [restartedMain] INFO  Environment[<clinit>:191] - HHH000406: Using bytecode reflection optimizer
+16:00:17.095 [restartedMain] INFO  BytecodeProviderInitiator[buildBytecodeProvider:53] - HHH000021: Bytecode provider name : bytebuddy
+16:00:17.376 [restartedMain] INFO  SpringPersistenceUnitInfo[addTransformer:87] - No LoadTimeWeaver setup: ignoring JPA class transformer
+16:00:17.414 [restartedMain] INFO  HikariDataSource[getConnection:110] - HikariPool-1 - Starting...
+16:00:17.847 [restartedMain] INFO  HikariPool[checkFailFast:565] - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6d53746b
+16:00:17.849 [restartedMain] INFO  HikariDataSource[getConnection:123] - HikariPool-1 - Start completed.
+16:00:18.750 [restartedMain] INFO  BytecodeProviderInitiator[buildBytecodeProvider:53] - HHH000021: Bytecode provider name : bytebuddy
+16:00:20.310 [restartedMain] INFO  JtaPlatformInitiator[initiateService:51] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:00:20.452 [restartedMain] INFO  LocalContainerEntityManagerFactoryBean[buildNativeEntityManagerFactory:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+16:00:21.256 [restartedMain] WARN  JpaBaseConfiguration$JpaWebConfiguration[openEntityManagerInViewInterceptor:231] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+16:00:21.958 [restartedMain] INFO  OptionalLiveReloadServer[startServer:59] - LiveReload server is running on port 35729
+16:00:21.986 [restartedMain] INFO  Http11NioProtocol[log:173] - Starting ProtocolHandler ["http-nio-8080"]
+16:00:22.017 [restartedMain] INFO  TomcatWebServer[start:220] - Tomcat started on port(s): 8080 (http) with context path ''
+16:00:22.038 [restartedMain] INFO  NewspapersApplication[logStarted:57] - Started NewspapersApplication in 9.616 seconds (process running for 11.097)
+16:00:46.006 [http-nio-8080-exec-2] INFO  [/][log:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:00:46.006 [http-nio-8080-exec-2] INFO  DispatcherServlet[initServletBean:532] - Initializing Servlet 'dispatcherServlet'
+16:00:46.007 [http-nio-8080-exec-2] INFO  DispatcherServlet[initServletBean:554] - Completed initialization in 1 ms
+17:38:28.444 [SpringApplicationShutdownHook] INFO  LocalContainerEntityManagerFactoryBean[destroy:650] - Closing JPA EntityManagerFactory for persistence unit 'default'
+17:38:28.472 [SpringApplicationShutdownHook] INFO  HikariDataSource[close:350] - HikariPool-1 - Shutdown initiated...
+17:38:28.477 [SpringApplicationShutdownHook] INFO  HikariDataSource[close:352] - HikariPool-1 - Shutdown completed.

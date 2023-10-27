@@ -1,0 +1,1280 @@
+14:16:38.490 [restartedMain] INFO  NewspapersApplication[logStarting:51] - Starting NewspapersApplication using Java 17.0.8 with PID 16888 (C:\Users\qdh1\Desktop\Newspapers\newspapers\Newspapers\target\classes started by huan in C:\Users\qdh1\Desktop\Newspapers)
+14:16:38.500 [restartedMain] INFO  NewspapersApplication[logStartupProfileInfo:637] - No active profile set, falling back to 1 default profile: "default"
+14:16:38.618 [restartedMain] INFO  DevToolsPropertyDefaultsPostProcessor[logTo:250] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+14:16:38.620 [restartedMain] INFO  DevToolsPropertyDefaultsPostProcessor[logTo:250] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+14:16:39.987 [restartedMain] INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:138] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+14:16:40.079 [restartedMain] INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:208] - Finished Spring Data repository scanning in 83 ms. Found 3 JPA repository interfaces.
+14:16:40.876 [restartedMain] INFO  TomcatWebServer[initialize:108] - Tomcat initialized with port(s): 8080 (http)
+14:16:40.886 [restartedMain] INFO  Http11NioProtocol[log:173] - Initializing ProtocolHandler ["http-nio-8080"]
+14:16:40.888 [restartedMain] INFO  StandardService[log:173] - Starting service [Tomcat]
+14:16:40.889 [restartedMain] INFO  StandardEngine[log:173] - Starting Servlet engine: [Apache Tomcat/10.1.13]
+14:16:40.976 [restartedMain] INFO  [/][log:173] - Initializing Spring embedded WebApplicationContext
+14:16:40.976 [restartedMain] INFO  ServletWebServerApplicationContext[prepareWebApplicationContext:291] - Root WebApplicationContext: initialization completed in 2355 ms
+14:16:41.239 [restartedMain] INFO  LogHelper[logPersistenceUnitInformation:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+14:16:41.368 [restartedMain] INFO  Version[logVersion:44] - HHH000412: Hibernate ORM core version 6.2.9.Final
+14:16:41.372 [restartedMain] INFO  Environment[<clinit>:191] - HHH000406: Using bytecode reflection optimizer
+14:16:41.652 [restartedMain] INFO  BytecodeProviderInitiator[buildBytecodeProvider:53] - HHH000021: Bytecode provider name : bytebuddy
+14:16:41.917 [restartedMain] INFO  SpringPersistenceUnitInfo[addTransformer:87] - No LoadTimeWeaver setup: ignoring JPA class transformer
+14:16:41.946 [restartedMain] INFO  HikariDataSource[getConnection:110] - HikariPool-1 - Starting...
+14:16:42.258 [restartedMain] INFO  HikariPool[checkFailFast:565] - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@23497e3d
+14:16:42.261 [restartedMain] INFO  HikariDataSource[getConnection:123] - HikariPool-1 - Start completed.
+14:16:43.000 [restartedMain] INFO  BytecodeProviderInitiator[buildBytecodeProvider:53] - HHH000021: Bytecode provider name : bytebuddy
+14:16:44.010 [restartedMain] INFO  JtaPlatformInitiator[initiateService:51] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+14:16:44.128 [restartedMain] INFO  LocalContainerEntityManagerFactoryBean[buildNativeEntityManagerFactory:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+14:16:44.651 [restartedMain] WARN  JpaBaseConfiguration$JpaWebConfiguration[openEntityManagerInViewInterceptor:231] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+14:16:45.135 [restartedMain] INFO  OptionalLiveReloadServer[startServer:59] - LiveReload server is running on port 35729
+14:16:45.157 [restartedMain] INFO  Http11NioProtocol[log:173] - Starting ProtocolHandler ["http-nio-8080"]
+14:16:45.186 [restartedMain] INFO  TomcatWebServer[start:220] - Tomcat started on port(s): 8080 (http) with context path ''
+14:16:45.204 [restartedMain] INFO  NewspapersApplication[logStarted:57] - Started NewspapersApplication in 7.796 seconds (process running for 9.65)
+14:19:11.780 [http-nio-8080-exec-1] INFO  [/][log:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:19:11.781 [http-nio-8080-exec-1] INFO  DispatcherServlet[initServletBean:532] - Initializing Servlet 'dispatcherServlet'
+14:19:11.783 [http-nio-8080-exec-1] INFO  DispatcherServlet[initServletBean:554] - Completed initialization in 2 ms
+14:19:11.858 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+14:21:25.433 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+14:21:28.580 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+14:28:27.167 [File Watcher] INFO  LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener[onApplicationEvent:211] - Restarting due to 2 class path changes (1 addition, 0 deletions, 1 modification)
+14:28:27.283 [Thread-5] INFO  Http11NioProtocol[log:173] - Pausing ProtocolHandler ["http-nio-8080"]
+14:28:27.287 [Thread-5] INFO  StandardService[log:173] - Stopping service [Tomcat]
+14:28:27.298 [Thread-5] INFO  [/][log:173] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+14:28:27.326 [Thread-5] INFO  Http11NioProtocol[log:173] - Stopping ProtocolHandler ["http-nio-8080"]
+14:28:27.334 [Thread-5] INFO  Http11NioProtocol[log:173] - Destroying ProtocolHandler ["http-nio-8080"]
+14:28:27.349 [Thread-5] INFO  LocalContainerEntityManagerFactoryBean[destroy:650] - Closing JPA EntityManagerFactory for persistence unit 'default'
+14:28:27.376 [Thread-5] INFO  HikariDataSource[close:350] - HikariPool-1 - Shutdown initiated...
+14:28:27.387 [Thread-5] INFO  HikariDataSource[close:352] - HikariPool-1 - Shutdown completed.
+14:28:27.654 [restartedMain] INFO  NewspapersApplication[logStarting:51] - Starting NewspapersApplication using Java 17.0.8 with PID 16888 (C:\Users\qdh1\Desktop\Newspapers\newspapers\Newspapers\target\classes started by huan in C:\Users\qdh1\Desktop\Newspapers)
+14:28:27.655 [restartedMain] INFO  NewspapersApplication[logStartupProfileInfo:637] - No active profile set, falling back to 1 default profile: "default"
+14:28:28.126 [restartedMain] INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:138] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+14:28:28.162 [restartedMain] INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:208] - Finished Spring Data repository scanning in 35 ms. Found 3 JPA repository interfaces.
+14:28:28.311 [restartedMain] INFO  TomcatWebServer[initialize:108] - Tomcat initialized with port(s): 8080 (http)
+14:28:28.311 [restartedMain] INFO  Http11NioProtocol[log:173] - Initializing ProtocolHandler ["http-nio-8080"]
+14:28:28.312 [restartedMain] INFO  StandardService[log:173] - Starting service [Tomcat]
+14:28:28.312 [restartedMain] INFO  StandardEngine[log:173] - Starting Servlet engine: [Apache Tomcat/10.1.13]
+14:28:28.342 [restartedMain] INFO  [/][log:173] - Initializing Spring embedded WebApplicationContext
+14:28:28.342 [restartedMain] INFO  ServletWebServerApplicationContext[prepareWebApplicationContext:291] - Root WebApplicationContext: initialization completed in 682 ms
+14:28:28.398 [restartedMain] INFO  LogHelper[logPersistenceUnitInformation:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+14:28:28.411 [restartedMain] INFO  BytecodeProviderInitiator[buildBytecodeProvider:53] - HHH000021: Bytecode provider name : bytebuddy
+14:28:28.412 [restartedMain] INFO  SpringPersistenceUnitInfo[addTransformer:87] - No LoadTimeWeaver setup: ignoring JPA class transformer
+14:28:28.413 [restartedMain] INFO  HikariDataSource[getConnection:110] - HikariPool-2 - Starting...
+14:28:28.488 [restartedMain] INFO  HikariPool[checkFailFast:565] - HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@3307688f
+14:28:28.489 [restartedMain] INFO  HikariDataSource[getConnection:123] - HikariPool-2 - Start completed.
+14:28:28.537 [restartedMain] INFO  BytecodeProviderInitiator[buildBytecodeProvider:53] - HHH000021: Bytecode provider name : bytebuddy
+14:28:28.603 [restartedMain] INFO  JtaPlatformInitiator[initiateService:51] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+14:28:28.687 [restartedMain] INFO  LocalContainerEntityManagerFactoryBean[buildNativeEntityManagerFactory:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+14:28:28.899 [restartedMain] WARN  JpaBaseConfiguration$JpaWebConfiguration[openEntityManagerInViewInterceptor:231] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+14:28:29.094 [restartedMain] INFO  OptionalLiveReloadServer[startServer:59] - LiveReload server is running on port 35729
+14:28:29.112 [restartedMain] INFO  Http11NioProtocol[log:173] - Starting ProtocolHandler ["http-nio-8080"]
+14:28:29.125 [restartedMain] INFO  TomcatWebServer[start:220] - Tomcat started on port(s): 8080 (http) with context path ''
+14:28:29.137 [restartedMain] INFO  NewspapersApplication[logStarted:57] - Started NewspapersApplication in 1.552 seconds (process running for 713.584)
+14:28:29.141 [restartedMain] INFO  ConditionEvaluationDeltaLoggingListener[onApplicationEvent:63] - Condition evaluation unchanged
+14:28:52.439 [http-nio-8080-exec-1] INFO  [/][log:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:28:52.440 [http-nio-8080-exec-1] INFO  DispatcherServlet[initServletBean:532] - Initializing Servlet 'dispatcherServlet'
+14:28:52.446 [http-nio-8080-exec-1] INFO  DispatcherServlet[initServletBean:554] - Completed initialization in 6 ms
+14:28:52.454 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+14:29:26.667 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+14:29:57.213 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+14:30:09.121 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+14:32:22.999 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+14:32:42.443 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+14:34:00.753 [http-nio-8080-exec-8] INFO  NewspaperController[getAll:35] - LoggerService done
+14:37:05.796 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+14:40:51.707 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+14:49:48.229 [File Watcher] INFO  LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener[onApplicationEvent:211] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+14:49:48.361 [Thread-7] INFO  Http11NioProtocol[log:173] - Pausing ProtocolHandler ["http-nio-8080"]
+14:49:48.364 [Thread-7] INFO  StandardService[log:173] - Stopping service [Tomcat]
+14:49:48.372 [Thread-7] INFO  [/][log:173] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+14:49:48.474 [Thread-7] INFO  Http11NioProtocol[log:173] - Stopping ProtocolHandler ["http-nio-8080"]
+14:49:48.485 [Thread-7] INFO  Http11NioProtocol[log:173] - Destroying ProtocolHandler ["http-nio-8080"]
+14:49:48.519 [Thread-7] INFO  LocalContainerEntityManagerFactoryBean[destroy:650] - Closing JPA EntityManagerFactory for persistence unit 'default'
+14:49:48.550 [Thread-7] INFO  HikariDataSource[close:350] - HikariPool-2 - Shutdown initiated...
+14:49:48.569 [Thread-7] INFO  HikariDataSource[close:352] - HikariPool-2 - Shutdown completed.
+14:49:49.305 [restartedMain] INFO  NewspapersApplication[logStarting:51] - Starting NewspapersApplication using Java 17.0.8 with PID 16888 (C:\Users\qdh1\Desktop\Newspapers\newspapers\Newspapers\target\classes started by huan in C:\Users\qdh1\Desktop\Newspapers)
+14:49:49.305 [restartedMain] INFO  NewspapersApplication[logStartupProfileInfo:637] - No active profile set, falling back to 1 default profile: "default"
+14:49:50.707 [restartedMain] INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:138] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+14:49:50.953 [restartedMain] INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:208] - Finished Spring Data repository scanning in 246 ms. Found 3 JPA repository interfaces.
+14:49:51.391 [restartedMain] INFO  TomcatWebServer[initialize:108] - Tomcat initialized with port(s): 8080 (http)
+14:49:51.392 [restartedMain] INFO  Http11NioProtocol[log:173] - Initializing ProtocolHandler ["http-nio-8080"]
+14:49:51.392 [restartedMain] INFO  StandardService[log:173] - Starting service [Tomcat]
+14:49:51.392 [restartedMain] INFO  StandardEngine[log:173] - Starting Servlet engine: [Apache Tomcat/10.1.13]
+14:49:51.433 [restartedMain] INFO  [/][log:173] - Initializing Spring embedded WebApplicationContext
+14:49:51.434 [restartedMain] INFO  ServletWebServerApplicationContext[prepareWebApplicationContext:291] - Root WebApplicationContext: initialization completed in 2123 ms
+14:49:51.490 [restartedMain] INFO  LogHelper[logPersistenceUnitInformation:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+14:49:51.507 [restartedMain] INFO  BytecodeProviderInitiator[buildBytecodeProvider:53] - HHH000021: Bytecode provider name : bytebuddy
+14:49:51.508 [restartedMain] INFO  SpringPersistenceUnitInfo[addTransformer:87] - No LoadTimeWeaver setup: ignoring JPA class transformer
+14:49:51.511 [restartedMain] INFO  HikariDataSource[getConnection:110] - HikariPool-3 - Starting...
+14:49:51.700 [restartedMain] INFO  HikariPool[checkFailFast:565] - HikariPool-3 - Added connection org.postgresql.jdbc.PgConnection@249ce966
+14:49:51.700 [restartedMain] INFO  HikariDataSource[getConnection:123] - HikariPool-3 - Start completed.
+14:49:51.777 [restartedMain] INFO  BytecodeProviderInitiator[buildBytecodeProvider:53] - HHH000021: Bytecode provider name : bytebuddy
+14:49:51.840 [restartedMain] INFO  JtaPlatformInitiator[initiateService:51] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+14:49:51.929 [restartedMain] INFO  LocalContainerEntityManagerFactoryBean[buildNativeEntityManagerFactory:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+14:49:52.217 [restartedMain] WARN  JpaBaseConfiguration$JpaWebConfiguration[openEntityManagerInViewInterceptor:231] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+14:49:52.436 [restartedMain] INFO  OptionalLiveReloadServer[startServer:59] - LiveReload server is running on port 35729
+14:49:52.454 [restartedMain] INFO  Http11NioProtocol[log:173] - Starting ProtocolHandler ["http-nio-8080"]
+14:49:52.459 [restartedMain] INFO  TomcatWebServer[start:220] - Tomcat started on port(s): 8080 (http) with context path ''
+14:49:52.468 [restartedMain] INFO  NewspapersApplication[logStarted:57] - Started NewspapersApplication in 3.239 seconds (process running for 1996.914)
+14:49:52.471 [restartedMain] INFO  ConditionEvaluationDeltaLoggingListener[onApplicationEvent:63] - Condition evaluation unchanged
+14:50:19.721 [http-nio-8080-exec-1] INFO  [/][log:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:50:19.721 [http-nio-8080-exec-1] INFO  DispatcherServlet[initServletBean:532] - Initializing Servlet 'dispatcherServlet'
+14:50:19.723 [http-nio-8080-exec-1] INFO  DispatcherServlet[initServletBean:554] - Completed initialization in 2 ms
+14:50:19.726 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+14:52:44.608 [File Watcher] INFO  LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener[onApplicationEvent:211] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+14:52:44.633 [Thread-11] INFO  Http11NioProtocol[log:173] - Pausing ProtocolHandler ["http-nio-8080"]
+14:52:44.633 [Thread-11] INFO  StandardService[log:173] - Stopping service [Tomcat]
+14:52:44.633 [Thread-11] INFO  [/][log:173] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+14:52:44.635 [Thread-11] INFO  Http11NioProtocol[log:173] - Stopping ProtocolHandler ["http-nio-8080"]
+14:52:44.636 [Thread-11] INFO  Http11NioProtocol[log:173] - Destroying ProtocolHandler ["http-nio-8080"]
+14:52:44.637 [Thread-11] INFO  LocalContainerEntityManagerFactoryBean[destroy:650] - Closing JPA EntityManagerFactory for persistence unit 'default'
+14:52:44.638 [Thread-11] INFO  HikariDataSource[close:350] - HikariPool-3 - Shutdown initiated...
+14:52:44.644 [Thread-11] INFO  HikariDataSource[close:352] - HikariPool-3 - Shutdown completed.
+14:52:44.793 [restartedMain] INFO  NewspapersApplication[logStarting:51] - Starting NewspapersApplication using Java 17.0.8 with PID 16888 (C:\Users\qdh1\Desktop\Newspapers\newspapers\Newspapers\target\classes started by huan in C:\Users\qdh1\Desktop\Newspapers)
+14:52:44.793 [restartedMain] INFO  NewspapersApplication[logStartupProfileInfo:637] - No active profile set, falling back to 1 default profile: "default"
+14:52:45.009 [restartedMain] INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:138] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+14:52:45.033 [restartedMain] INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:208] - Finished Spring Data repository scanning in 23 ms. Found 3 JPA repository interfaces.
+14:52:45.111 [restartedMain] INFO  TomcatWebServer[initialize:108] - Tomcat initialized with port(s): 8080 (http)
+14:52:45.112 [restartedMain] INFO  Http11NioProtocol[log:173] - Initializing ProtocolHandler ["http-nio-8080"]
+14:52:45.112 [restartedMain] INFO  StandardService[log:173] - Starting service [Tomcat]
+14:52:45.112 [restartedMain] INFO  StandardEngine[log:173] - Starting Servlet engine: [Apache Tomcat/10.1.13]
+14:52:45.132 [restartedMain] INFO  [/][log:173] - Initializing Spring embedded WebApplicationContext
+14:52:45.132 [restartedMain] INFO  ServletWebServerApplicationContext[prepareWebApplicationContext:291] - Root WebApplicationContext: initialization completed in 337 ms
+14:52:45.156 [restartedMain] INFO  LogHelper[logPersistenceUnitInformation:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+14:52:45.162 [restartedMain] INFO  BytecodeProviderInitiator[buildBytecodeProvider:53] - HHH000021: Bytecode provider name : bytebuddy
+14:52:45.162 [restartedMain] INFO  SpringPersistenceUnitInfo[addTransformer:87] - No LoadTimeWeaver setup: ignoring JPA class transformer
+14:52:45.163 [restartedMain] INFO  HikariDataSource[getConnection:110] - HikariPool-4 - Starting...
+14:52:45.243 [restartedMain] INFO  HikariPool[checkFailFast:565] - HikariPool-4 - Added connection org.postgresql.jdbc.PgConnection@3ca72716
+14:52:45.244 [restartedMain] INFO  HikariDataSource[getConnection:123] - HikariPool-4 - Start completed.
+14:52:45.284 [restartedMain] INFO  BytecodeProviderInitiator[buildBytecodeProvider:53] - HHH000021: Bytecode provider name : bytebuddy
+14:52:45.322 [restartedMain] INFO  JtaPlatformInitiator[initiateService:51] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+14:52:45.356 [restartedMain] INFO  LocalContainerEntityManagerFactoryBean[buildNativeEntityManagerFactory:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+14:52:45.462 [restartedMain] WARN  JpaBaseConfiguration$JpaWebConfiguration[openEntityManagerInViewInterceptor:231] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+14:52:45.561 [restartedMain] INFO  OptionalLiveReloadServer[startServer:59] - LiveReload server is running on port 35729
+14:52:45.568 [restartedMain] INFO  Http11NioProtocol[log:173] - Starting ProtocolHandler ["http-nio-8080"]
+14:52:45.571 [restartedMain] INFO  TomcatWebServer[start:220] - Tomcat started on port(s): 8080 (http) with context path ''
+14:52:45.576 [restartedMain] INFO  NewspapersApplication[logStarted:57] - Started NewspapersApplication in 0.819 seconds (process running for 2170.023)
+14:52:45.578 [restartedMain] INFO  ConditionEvaluationDeltaLoggingListener[onApplicationEvent:63] - Condition evaluation unchanged
+14:53:57.829 [http-nio-8080-exec-1] INFO  [/][log:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:53:57.829 [http-nio-8080-exec-1] INFO  DispatcherServlet[initServletBean:532] - Initializing Servlet 'dispatcherServlet'
+14:53:57.831 [http-nio-8080-exec-1] INFO  DispatcherServlet[initServletBean:554] - Completed initialization in 2 ms
+14:53:57.835 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+14:54:23.347 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+14:54:39.876 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+14:54:45.057 [http-nio-8080-exec-3] ERROR [dispatcherServlet][log:175] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.net.UnknownHostException: tuoitre.vn
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:534)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:639)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:266)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:380)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1242)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(HttpsURLConnectionImpl.java:142)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:651)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:628)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:260)
+	at org.jsoup.helper.HttpConnection.get(HttpConnection.java:249)
+	at com.newspapers.controller.NewspaperController.get(NewspaperController.java:44)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+14:55:19.663 [File Watcher] INFO  LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener[onApplicationEvent:211] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+14:55:19.692 [Thread-15] INFO  Http11NioProtocol[log:173] - Pausing ProtocolHandler ["http-nio-8080"]
+14:55:19.692 [Thread-15] INFO  StandardService[log:173] - Stopping service [Tomcat]
+14:55:19.693 [Thread-15] INFO  [/][log:173] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+14:55:19.697 [Thread-15] INFO  Http11NioProtocol[log:173] - Stopping ProtocolHandler ["http-nio-8080"]
+14:55:19.699 [Thread-15] INFO  Http11NioProtocol[log:173] - Destroying ProtocolHandler ["http-nio-8080"]
+14:55:19.702 [Thread-15] INFO  LocalContainerEntityManagerFactoryBean[destroy:650] - Closing JPA EntityManagerFactory for persistence unit 'default'
+14:55:19.706 [Thread-15] INFO  HikariDataSource[close:350] - HikariPool-4 - Shutdown initiated...
+14:55:19.711 [Thread-15] INFO  HikariDataSource[close:352] - HikariPool-4 - Shutdown completed.
+14:55:19.845 [restartedMain] INFO  NewspapersApplication[logStarting:51] - Starting NewspapersApplication using Java 17.0.8 with PID 16888 (C:\Users\qdh1\Desktop\Newspapers\newspapers\Newspapers\target\classes started by huan in C:\Users\qdh1\Desktop\Newspapers)
+14:55:19.845 [restartedMain] INFO  NewspapersApplication[logStartupProfileInfo:637] - No active profile set, falling back to 1 default profile: "default"
+14:55:20.315 [restartedMain] INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:138] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+14:55:20.341 [restartedMain] INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:208] - Finished Spring Data repository scanning in 24 ms. Found 3 JPA repository interfaces.
+14:55:20.505 [restartedMain] INFO  TomcatWebServer[initialize:108] - Tomcat initialized with port(s): 8080 (http)
+14:55:20.506 [restartedMain] INFO  Http11NioProtocol[log:173] - Initializing ProtocolHandler ["http-nio-8080"]
+14:55:20.506 [restartedMain] INFO  StandardService[log:173] - Starting service [Tomcat]
+14:55:20.506 [restartedMain] INFO  StandardEngine[log:173] - Starting Servlet engine: [Apache Tomcat/10.1.13]
+14:55:20.546 [restartedMain] INFO  [/][log:173] - Initializing Spring embedded WebApplicationContext
+14:55:20.546 [restartedMain] INFO  ServletWebServerApplicationContext[prepareWebApplicationContext:291] - Root WebApplicationContext: initialization completed in 697 ms
+14:55:20.628 [restartedMain] INFO  LogHelper[logPersistenceUnitInformation:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+14:55:20.646 [restartedMain] INFO  BytecodeProviderInitiator[buildBytecodeProvider:53] - HHH000021: Bytecode provider name : bytebuddy
+14:55:20.646 [restartedMain] INFO  SpringPersistenceUnitInfo[addTransformer:87] - No LoadTimeWeaver setup: ignoring JPA class transformer
+14:55:20.648 [restartedMain] INFO  HikariDataSource[getConnection:110] - HikariPool-5 - Starting...
+14:55:20.736 [restartedMain] INFO  HikariPool[checkFailFast:565] - HikariPool-5 - Added connection org.postgresql.jdbc.PgConnection@222158ca
+14:55:20.737 [restartedMain] INFO  HikariDataSource[getConnection:123] - HikariPool-5 - Start completed.
+14:55:20.815 [restartedMain] INFO  BytecodeProviderInitiator[buildBytecodeProvider:53] - HHH000021: Bytecode provider name : bytebuddy
+14:55:20.958 [restartedMain] INFO  JtaPlatformInitiator[initiateService:51] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+14:55:21.061 [restartedMain] INFO  LocalContainerEntityManagerFactoryBean[buildNativeEntityManagerFactory:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+14:55:21.456 [restartedMain] WARN  JpaBaseConfiguration$JpaWebConfiguration[openEntityManagerInViewInterceptor:231] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+14:55:21.775 [restartedMain] INFO  OptionalLiveReloadServer[startServer:59] - LiveReload server is running on port 35729
+14:55:21.798 [restartedMain] INFO  Http11NioProtocol[log:173] - Starting ProtocolHandler ["http-nio-8080"]
+14:55:21.804 [restartedMain] INFO  TomcatWebServer[start:220] - Tomcat started on port(s): 8080 (http) with context path ''
+14:55:21.814 [restartedMain] INFO  NewspapersApplication[logStarted:57] - Started NewspapersApplication in 2.016 seconds (process running for 2326.261)
+14:55:21.818 [restartedMain] INFO  ConditionEvaluationDeltaLoggingListener[onApplicationEvent:63] - Condition evaluation unchanged
+14:55:39.704 [File Watcher] INFO  LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener[onApplicationEvent:211] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+14:55:39.752 [Thread-19] INFO  Http11NioProtocol[log:173] - Pausing ProtocolHandler ["http-nio-8080"]
+14:55:39.752 [Thread-19] INFO  StandardService[log:173] - Stopping service [Tomcat]
+14:55:39.756 [Thread-19] INFO  Http11NioProtocol[log:173] - Stopping ProtocolHandler ["http-nio-8080"]
+14:55:39.758 [Thread-19] INFO  Http11NioProtocol[log:173] - Destroying ProtocolHandler ["http-nio-8080"]
+14:55:39.761 [Thread-19] INFO  LocalContainerEntityManagerFactoryBean[destroy:650] - Closing JPA EntityManagerFactory for persistence unit 'default'
+14:55:39.763 [Thread-19] INFO  HikariDataSource[close:350] - HikariPool-5 - Shutdown initiated...
+14:55:39.768 [Thread-19] INFO  HikariDataSource[close:352] - HikariPool-5 - Shutdown completed.
+14:55:39.934 [restartedMain] INFO  NewspapersApplication[logStarting:51] - Starting NewspapersApplication using Java 17.0.8 with PID 16888 (C:\Users\qdh1\Desktop\Newspapers\newspapers\Newspapers\target\classes started by huan in C:\Users\qdh1\Desktop\Newspapers)
+14:55:39.934 [restartedMain] INFO  NewspapersApplication[logStartupProfileInfo:637] - No active profile set, falling back to 1 default profile: "default"
+14:55:40.629 [restartedMain] INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:138] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+14:55:40.685 [restartedMain] INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:208] - Finished Spring Data repository scanning in 54 ms. Found 3 JPA repository interfaces.
+14:55:40.928 [restartedMain] INFO  TomcatWebServer[initialize:108] - Tomcat initialized with port(s): 8080 (http)
+14:55:40.929 [restartedMain] INFO  Http11NioProtocol[log:173] - Initializing ProtocolHandler ["http-nio-8080"]
+14:55:40.931 [restartedMain] INFO  StandardService[log:173] - Starting service [Tomcat]
+14:55:40.931 [restartedMain] INFO  StandardEngine[log:173] - Starting Servlet engine: [Apache Tomcat/10.1.13]
+14:55:40.979 [restartedMain] INFO  [/][log:173] - Initializing Spring embedded WebApplicationContext
+14:55:40.979 [restartedMain] INFO  ServletWebServerApplicationContext[prepareWebApplicationContext:291] - Root WebApplicationContext: initialization completed in 1040 ms
+14:55:41.069 [restartedMain] INFO  LogHelper[logPersistenceUnitInformation:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+14:55:41.089 [restartedMain] INFO  BytecodeProviderInitiator[buildBytecodeProvider:53] - HHH000021: Bytecode provider name : bytebuddy
+14:55:41.090 [restartedMain] INFO  SpringPersistenceUnitInfo[addTransformer:87] - No LoadTimeWeaver setup: ignoring JPA class transformer
+14:55:41.092 [restartedMain] INFO  HikariDataSource[getConnection:110] - HikariPool-6 - Starting...
+14:55:41.239 [restartedMain] INFO  HikariPool[checkFailFast:565] - HikariPool-6 - Added connection org.postgresql.jdbc.PgConnection@681f2c95
+14:55:41.239 [restartedMain] INFO  HikariDataSource[getConnection:123] - HikariPool-6 - Start completed.
+14:55:41.316 [restartedMain] INFO  BytecodeProviderInitiator[buildBytecodeProvider:53] - HHH000021: Bytecode provider name : bytebuddy
+14:55:41.390 [restartedMain] INFO  JtaPlatformInitiator[initiateService:51] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+14:55:41.473 [restartedMain] INFO  LocalContainerEntityManagerFactoryBean[buildNativeEntityManagerFactory:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+14:55:41.786 [restartedMain] WARN  JpaBaseConfiguration$JpaWebConfiguration[openEntityManagerInViewInterceptor:231] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+14:55:42.033 [restartedMain] INFO  OptionalLiveReloadServer[startServer:59] - LiveReload server is running on port 35729
+14:55:42.062 [restartedMain] INFO  Http11NioProtocol[log:173] - Starting ProtocolHandler ["http-nio-8080"]
+14:55:42.078 [restartedMain] INFO  TomcatWebServer[start:220] - Tomcat started on port(s): 8080 (http) with context path ''
+14:55:42.092 [restartedMain] INFO  NewspapersApplication[logStarted:57] - Started NewspapersApplication in 2.219 seconds (process running for 2346.539)
+14:55:42.096 [restartedMain] INFO  ConditionEvaluationDeltaLoggingListener[onApplicationEvent:63] - Condition evaluation unchanged
+15:03:59.045 [http-nio-8080-exec-2] INFO  [/][log:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:03:59.051 [http-nio-8080-exec-2] INFO  DispatcherServlet[initServletBean:532] - Initializing Servlet 'dispatcherServlet'
+15:03:59.058 [http-nio-8080-exec-2] INFO  DispatcherServlet[initServletBean:554] - Completed initialization in 7 ms
+15:03:59.071 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+15:05:03.657 [File Watcher] INFO  LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener[onApplicationEvent:211] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+15:05:03.703 [Thread-23] INFO  Http11NioProtocol[log:173] - Pausing ProtocolHandler ["http-nio-8080"]
+15:05:03.704 [Thread-23] INFO  StandardService[log:173] - Stopping service [Tomcat]
+15:05:03.705 [Thread-23] INFO  [/][log:173] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+15:05:03.724 [Thread-23] INFO  Http11NioProtocol[log:173] - Stopping ProtocolHandler ["http-nio-8080"]
+15:05:03.726 [Thread-23] INFO  Http11NioProtocol[log:173] - Destroying ProtocolHandler ["http-nio-8080"]
+15:05:03.734 [Thread-23] INFO  LocalContainerEntityManagerFactoryBean[destroy:650] - Closing JPA EntityManagerFactory for persistence unit 'default'
+15:05:03.740 [Thread-23] INFO  HikariDataSource[close:350] - HikariPool-6 - Shutdown initiated...
+15:05:03.749 [Thread-23] INFO  HikariDataSource[close:352] - HikariPool-6 - Shutdown completed.
+15:05:04.498 [restartedMain] INFO  NewspapersApplication[logStarting:51] - Starting NewspapersApplication using Java 17.0.8 with PID 16888 (C:\Users\qdh1\Desktop\Newspapers\newspapers\Newspapers\target\classes started by huan in C:\Users\qdh1\Desktop\Newspapers)
+15:05:04.499 [restartedMain] INFO  NewspapersApplication[logStartupProfileInfo:637] - No active profile set, falling back to 1 default profile: "default"
+15:05:05.076 [restartedMain] INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:138] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+15:05:05.116 [restartedMain] INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:208] - Finished Spring Data repository scanning in 38 ms. Found 3 JPA repository interfaces.
+15:05:05.573 [restartedMain] INFO  TomcatWebServer[initialize:108] - Tomcat initialized with port(s): 8080 (http)
+15:05:05.574 [restartedMain] INFO  Http11NioProtocol[log:173] - Initializing ProtocolHandler ["http-nio-8080"]
+15:05:05.575 [restartedMain] INFO  StandardService[log:173] - Starting service [Tomcat]
+15:05:05.575 [restartedMain] INFO  StandardEngine[log:173] - Starting Servlet engine: [Apache Tomcat/10.1.13]
+15:05:05.618 [restartedMain] INFO  [/][log:173] - Initializing Spring embedded WebApplicationContext
+15:05:05.618 [restartedMain] INFO  ServletWebServerApplicationContext[prepareWebApplicationContext:291] - Root WebApplicationContext: initialization completed in 1116 ms
+15:05:05.708 [restartedMain] INFO  LogHelper[logPersistenceUnitInformation:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+15:05:05.734 [restartedMain] INFO  BytecodeProviderInitiator[buildBytecodeProvider:53] - HHH000021: Bytecode provider name : bytebuddy
+15:05:05.734 [restartedMain] INFO  SpringPersistenceUnitInfo[addTransformer:87] - No LoadTimeWeaver setup: ignoring JPA class transformer
+15:05:05.737 [restartedMain] INFO  HikariDataSource[getConnection:110] - HikariPool-7 - Starting...
+15:05:05.984 [restartedMain] INFO  HikariPool[checkFailFast:565] - HikariPool-7 - Added connection org.postgresql.jdbc.PgConnection@5f45195c
+15:05:05.985 [restartedMain] INFO  HikariDataSource[getConnection:123] - HikariPool-7 - Start completed.
+15:05:06.085 [restartedMain] INFO  BytecodeProviderInitiator[buildBytecodeProvider:53] - HHH000021: Bytecode provider name : bytebuddy
+15:05:06.163 [restartedMain] INFO  JtaPlatformInitiator[initiateService:51] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+15:05:06.282 [restartedMain] INFO  LocalContainerEntityManagerFactoryBean[buildNativeEntityManagerFactory:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+15:05:06.657 [restartedMain] WARN  JpaBaseConfiguration$JpaWebConfiguration[openEntityManagerInViewInterceptor:231] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+15:05:06.878 [restartedMain] INFO  OptionalLiveReloadServer[startServer:59] - LiveReload server is running on port 35729
+15:05:06.900 [restartedMain] INFO  Http11NioProtocol[log:173] - Starting ProtocolHandler ["http-nio-8080"]
+15:05:06.927 [restartedMain] INFO  TomcatWebServer[start:220] - Tomcat started on port(s): 8080 (http) with context path ''
+15:05:06.944 [restartedMain] INFO  NewspapersApplication[logStarted:57] - Started NewspapersApplication in 2.515 seconds (process running for 2911.391)
+15:05:06.948 [restartedMain] INFO  ConditionEvaluationDeltaLoggingListener[onApplicationEvent:63] - Condition evaluation unchanged
+15:05:06.987 [http-nio-8080-exec-3] INFO  [/][log:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:05:06.987 [http-nio-8080-exec-3] INFO  DispatcherServlet[initServletBean:532] - Initializing Servlet 'dispatcherServlet'
+15:05:06.990 [http-nio-8080-exec-3] INFO  DispatcherServlet[initServletBean:554] - Completed initialization in 2 ms
+15:05:06.993 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+15:05:32.134 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+15:07:51.420 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+15:07:54.076 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+15:08:03.041 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+15:08:18.383 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+15:08:36.713 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+15:10:03.341 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+15:10:48.679 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+15:10:48.893 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+15:13:09.557 [File Watcher] INFO  LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener[onApplicationEvent:211] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+15:13:09.598 [Thread-27] INFO  Http11NioProtocol[log:173] - Pausing ProtocolHandler ["http-nio-8080"]
+15:13:09.599 [Thread-27] INFO  StandardService[log:173] - Stopping service [Tomcat]
+15:13:09.600 [Thread-27] INFO  [/][log:173] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+15:13:09.616 [Thread-27] INFO  Http11NioProtocol[log:173] - Stopping ProtocolHandler ["http-nio-8080"]
+15:13:09.618 [Thread-27] INFO  Http11NioProtocol[log:173] - Destroying ProtocolHandler ["http-nio-8080"]
+15:13:09.622 [Thread-27] INFO  LocalContainerEntityManagerFactoryBean[destroy:650] - Closing JPA EntityManagerFactory for persistence unit 'default'
+15:13:09.625 [Thread-27] INFO  HikariDataSource[close:350] - HikariPool-7 - Shutdown initiated...
+15:13:09.628 [Thread-27] INFO  HikariDataSource[close:352] - HikariPool-7 - Shutdown completed.
+15:13:09.850 [restartedMain] INFO  NewspapersApplication[logStarting:51] - Starting NewspapersApplication using Java 17.0.8 with PID 16888 (C:\Users\qdh1\Desktop\Newspapers\newspapers\Newspapers\target\classes started by huan in C:\Users\qdh1\Desktop\Newspapers)
+15:13:09.851 [restartedMain] INFO  NewspapersApplication[logStartupProfileInfo:637] - No active profile set, falling back to 1 default profile: "default"
+15:13:10.200 [restartedMain] INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:138] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+15:13:10.220 [restartedMain] INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:208] - Finished Spring Data repository scanning in 19 ms. Found 3 JPA repository interfaces.
+15:13:10.400 [restartedMain] INFO  TomcatWebServer[initialize:108] - Tomcat initialized with port(s): 8080 (http)
+15:13:10.401 [restartedMain] INFO  Http11NioProtocol[log:173] - Initializing ProtocolHandler ["http-nio-8080"]
+15:13:10.401 [restartedMain] INFO  StandardService[log:173] - Starting service [Tomcat]
+15:13:10.401 [restartedMain] INFO  StandardEngine[log:173] - Starting Servlet engine: [Apache Tomcat/10.1.13]
+15:13:10.440 [restartedMain] INFO  [/][log:173] - Initializing Spring embedded WebApplicationContext
+15:13:10.440 [restartedMain] INFO  ServletWebServerApplicationContext[prepareWebApplicationContext:291] - Root WebApplicationContext: initialization completed in 585 ms
+15:13:10.513 [restartedMain] INFO  LogHelper[logPersistenceUnitInformation:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+15:13:10.529 [restartedMain] INFO  BytecodeProviderInitiator[buildBytecodeProvider:53] - HHH000021: Bytecode provider name : bytebuddy
+15:13:10.530 [restartedMain] INFO  SpringPersistenceUnitInfo[addTransformer:87] - No LoadTimeWeaver setup: ignoring JPA class transformer
+15:13:10.533 [restartedMain] INFO  HikariDataSource[getConnection:110] - HikariPool-8 - Starting...
+15:13:10.634 [restartedMain] INFO  HikariPool[checkFailFast:565] - HikariPool-8 - Added connection org.postgresql.jdbc.PgConnection@3ee06b68
+15:13:10.635 [restartedMain] INFO  HikariDataSource[getConnection:123] - HikariPool-8 - Start completed.
+15:13:10.698 [restartedMain] INFO  BytecodeProviderInitiator[buildBytecodeProvider:53] - HHH000021: Bytecode provider name : bytebuddy
+15:13:10.746 [restartedMain] INFO  JtaPlatformInitiator[initiateService:51] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+15:13:10.823 [restartedMain] INFO  LocalContainerEntityManagerFactoryBean[buildNativeEntityManagerFactory:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+15:13:11.097 [restartedMain] WARN  JpaBaseConfiguration$JpaWebConfiguration[openEntityManagerInViewInterceptor:231] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+15:13:11.305 [restartedMain] INFO  OptionalLiveReloadServer[startServer:59] - LiveReload server is running on port 35729
+15:13:11.321 [restartedMain] INFO  Http11NioProtocol[log:173] - Starting ProtocolHandler ["http-nio-8080"]
+15:13:11.327 [restartedMain] INFO  TomcatWebServer[start:220] - Tomcat started on port(s): 8080 (http) with context path ''
+15:13:11.345 [restartedMain] INFO  NewspapersApplication[logStarted:57] - Started NewspapersApplication in 1.548 seconds (process running for 3395.791)
+15:13:11.347 [restartedMain] INFO  ConditionEvaluationDeltaLoggingListener[onApplicationEvent:63] - Condition evaluation unchanged
+15:14:36.159 [http-nio-8080-exec-2] INFO  [/][log:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:14:36.160 [http-nio-8080-exec-2] INFO  DispatcherServlet[initServletBean:532] - Initializing Servlet 'dispatcherServlet'
+15:14:36.162 [http-nio-8080-exec-2] INFO  DispatcherServlet[initServletBean:554] - Completed initialization in 2 ms
+15:14:36.165 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+15:14:36.277 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+15:14:40.132 [http-nio-8080-exec-8] INFO  NewspaperController[getAll:35] - LoggerService done
+15:17:35.127 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+15:17:35.392 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+15:18:12.602 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+15:18:13.708 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+15:28:47.525 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+15:30:21.531 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+15:31:02.575 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+15:33:43.424 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+15:36:21.613 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+15:36:53.626 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+15:37:35.983 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+15:38:04.320 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+15:38:22.282 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+15:38:49.633 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+15:39:27.449 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+16:04:20.484 [SpringApplicationShutdownHook] INFO  LocalContainerEntityManagerFactoryBean[destroy:650] - Closing JPA EntityManagerFactory for persistence unit 'default'
+16:04:20.514 [SpringApplicationShutdownHook] INFO  HikariDataSource[close:350] - HikariPool-8 - Shutdown initiated...
+16:04:20.520 [SpringApplicationShutdownHook] INFO  HikariDataSource[close:352] - HikariPool-8 - Shutdown completed.
+16:18:39.436 [restartedMain] INFO  NewspapersApplication[logStarting:51] - Starting NewspapersApplication using Java 17.0.8 with PID 9748 (C:\Users\qdh1\Desktop\Newspapers\newspapers\Newspapers\target\classes started by huan in C:\Users\qdh1\Desktop\Newspapers)
+16:18:39.447 [restartedMain] INFO  NewspapersApplication[logStartupProfileInfo:637] - No active profile set, falling back to 1 default profile: "default"
+16:18:39.703 [restartedMain] INFO  DevToolsPropertyDefaultsPostProcessor[logTo:250] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:18:39.705 [restartedMain] INFO  DevToolsPropertyDefaultsPostProcessor[logTo:250] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+16:18:42.564 [restartedMain] INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:138] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+16:18:42.737 [restartedMain] INFO  RepositoryConfigurationDelegate[registerRepositoriesIn:208] - Finished Spring Data repository scanning in 145 ms. Found 3 JPA repository interfaces.
+16:18:44.914 [restartedMain] INFO  TomcatWebServer[initialize:108] - Tomcat initialized with port(s): 8080 (http)
+16:18:45.064 [restartedMain] INFO  Http11NioProtocol[log:173] - Initializing ProtocolHandler ["http-nio-8080"]
+16:18:45.124 [restartedMain] INFO  StandardService[log:173] - Starting service [Tomcat]
+16:18:45.125 [restartedMain] INFO  StandardEngine[log:173] - Starting Servlet engine: [Apache Tomcat/10.1.13]
+16:18:45.494 [restartedMain] INFO  [/][log:173] - Initializing Spring embedded WebApplicationContext
+16:18:45.503 [restartedMain] INFO  ServletWebServerApplicationContext[prepareWebApplicationContext:291] - Root WebApplicationContext: initialization completed in 5782 ms
+16:18:45.871 [restartedMain] INFO  LogHelper[logPersistenceUnitInformation:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+16:18:46.054 [restartedMain] INFO  Version[logVersion:44] - HHH000412: Hibernate ORM core version 6.2.9.Final
+16:18:46.059 [restartedMain] INFO  Environment[<clinit>:191] - HHH000406: Using bytecode reflection optimizer
+16:18:46.637 [restartedMain] INFO  BytecodeProviderInitiator[buildBytecodeProvider:53] - HHH000021: Bytecode provider name : bytebuddy
+16:18:47.116 [restartedMain] INFO  SpringPersistenceUnitInfo[addTransformer:87] - No LoadTimeWeaver setup: ignoring JPA class transformer
+16:18:47.159 [restartedMain] INFO  HikariDataSource[getConnection:110] - HikariPool-1 - Starting...
+16:18:47.528 [restartedMain] INFO  HikariPool[checkFailFast:565] - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5b74117
+16:18:47.531 [restartedMain] INFO  HikariDataSource[getConnection:123] - HikariPool-1 - Start completed.
+16:18:48.275 [restartedMain] INFO  BytecodeProviderInitiator[buildBytecodeProvider:53] - HHH000021: Bytecode provider name : bytebuddy
+16:18:49.809 [restartedMain] INFO  JtaPlatformInitiator[initiateService:51] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:18:50.161 [restartedMain] INFO  LocalContainerEntityManagerFactoryBean[buildNativeEntityManagerFactory:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+16:18:51.232 [restartedMain] WARN  JpaBaseConfiguration$JpaWebConfiguration[openEntityManagerInViewInterceptor:231] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+16:18:52.290 [restartedMain] INFO  OptionalLiveReloadServer[startServer:59] - LiveReload server is running on port 35729
+16:18:52.327 [restartedMain] INFO  Http11NioProtocol[log:173] - Starting ProtocolHandler ["http-nio-8080"]
+16:18:52.389 [restartedMain] INFO  TomcatWebServer[start:220] - Tomcat started on port(s): 8080 (http) with context path ''
+16:18:52.417 [restartedMain] INFO  NewspapersApplication[logStarted:57] - Started NewspapersApplication in 14.361 seconds (process running for 17.763)
+16:21:38.218 [http-nio-8080-exec-1] INFO  [/][log:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:21:38.219 [http-nio-8080-exec-1] INFO  DispatcherServlet[initServletBean:532] - Initializing Servlet 'dispatcherServlet'
+16:21:38.221 [http-nio-8080-exec-1] INFO  DispatcherServlet[initServletBean:554] - Completed initialization in 2 ms
+16:21:38.276 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+16:21:51.509 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+16:22:20.880 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+16:22:31.411 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+16:22:36.413 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+16:22:38.337 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+16:22:38.354 [http-nio-8080-exec-8] INFO  NewspaperController[getAll:35] - LoggerService done
+16:22:44.518 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+16:22:50.737 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+16:22:55.184 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+16:22:55.203 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+16:23:11.416 [http-nio-8080-exec-8] INFO  NewspaperController[getAll:35] - LoggerService done
+16:23:12.154 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+16:23:12.177 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+16:23:12.211 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+16:23:14.189 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+16:23:16.574 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+16:23:16.595 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+16:23:16.608 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+16:23:22.036 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+16:26:08.385 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+16:26:25.072 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+16:26:25.080 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+16:26:25.089 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+16:26:25.105 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+16:26:55.823 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+16:33:53.299 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+16:33:55.658 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+16:33:55.667 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+16:46:50.038 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+16:46:58.813 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+16:46:58.830 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+16:47:02.189 [http-nio-8080-exec-8] INFO  NewspaperController[getAll:35] - LoggerService done
+16:47:05.354 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+16:47:05.377 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+16:47:05.391 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+16:47:30.165 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+16:47:30.843 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+16:47:32.883 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+16:47:32.937 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+16:47:40.140 [http-nio-8080-exec-8] INFO  NewspaperController[getAll:35] - LoggerService done
+16:47:42.684 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+16:47:42.701 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+16:47:53.417 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+16:47:57.333 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+16:55:46.159 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+16:56:00.161 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+16:56:00.176 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+16:57:42.287 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+16:57:50.461 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+16:58:50.892 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+16:59:07.299 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+16:59:11.770 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+16:59:11.782 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+17:00:19.100 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:00:24.525 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+17:01:15.369 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:02:34.321 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+17:02:34.337 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+17:02:34.352 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+17:02:34.367 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:02:34.387 [http-nio-8080-exec-8] INFO  NewspaperController[getAll:35] - LoggerService done
+17:02:34.402 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:02:34.417 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+17:02:34.434 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+17:02:34.451 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:02:34.468 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:02:34.483 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+17:02:56.888 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:02:56.903 [http-nio-8080-exec-8] INFO  NewspaperController[getAll:35] - LoggerService done
+17:02:56.919 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:02:56.935 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+17:02:56.952 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+17:02:56.969 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:02:56.985 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:02:57.002 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+17:02:57.018 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+17:02:57.034 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+17:02:57.051 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:09:08.961 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:09:12.613 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+17:09:12.629 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:09:23.083 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+17:09:23.101 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+17:10:09.328 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+17:10:10.916 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+17:10:10.934 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:10:10.947 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:10:12.394 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+17:10:12.444 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+17:10:15.101 [http-nio-8080-exec-8] INFO  NewspaperController[getAll:35] - LoggerService done
+17:10:18.245 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:10:25.266 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:10:28.029 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:10:31.274 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+17:10:36.199 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:10:36.218 [http-nio-8080-exec-8] INFO  NewspaperController[getAll:35] - LoggerService done
+17:10:36.231 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:10:37.997 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+17:10:38.012 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+17:10:38.027 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:10:38.045 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:10:38.062 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+17:10:38.079 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+17:10:38.096 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+17:10:39.669 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:10:39.688 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+17:10:39.702 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+17:10:39.714 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:10:39.729 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:10:39.746 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+17:10:39.761 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+17:10:39.779 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+17:10:39.794 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:10:39.811 [http-nio-8080-exec-8] INFO  NewspaperController[getAll:35] - LoggerService done
+17:10:39.828 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:10:39.844 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+17:10:39.859 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+17:10:41.593 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:10:45.659 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+17:10:45.665 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+17:10:45.896 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:10:46.210 [http-nio-8080-exec-8] INFO  NewspaperController[getAll:35] - LoggerService done
+17:10:46.495 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:10:46.833 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+17:10:47.194 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+17:10:49.179 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+17:10:51.162 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+17:10:58.831 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:11:01.179 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+17:11:01.198 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+17:11:01.221 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:11:05.960 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:11:06.471 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+17:11:06.521 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+17:11:08.567 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:11:08.576 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+17:11:09.378 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+17:11:10.779 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:11:16.271 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+17:11:16.296 [http-nio-8080-exec-8] INFO  NewspaperController[getAll:35] - LoggerService done
+17:11:16.302 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+17:11:16.308 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:11:16.315 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:11:16.320 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+17:11:16.325 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+17:11:16.330 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:11:16.336 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+17:11:16.343 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:11:16.350 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+17:11:16.357 [http-nio-8080-exec-8] INFO  NewspaperController[getAll:35] - LoggerService done
+17:11:16.363 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+17:11:16.368 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:11:18.113 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:11:18.131 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+17:11:18.147 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+17:11:18.164 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:11:18.179 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+17:11:18.196 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:11:18.211 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+17:11:18.228 [http-nio-8080-exec-8] INFO  NewspaperController[getAll:35] - LoggerService done
+17:11:18.245 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+17:11:18.260 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:11:18.282 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:11:18.322 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+17:12:10.549 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+17:12:12.283 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+17:12:13.084 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+17:12:16.085 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:12:17.898 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:12:17.914 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+17:12:19.364 [http-nio-8080-exec-8] INFO  NewspaperController[getAll:35] - LoggerService done
+17:12:19.380 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+17:12:19.397 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:12:19.414 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+17:12:19.430 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+17:12:19.449 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:12:21.047 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+17:12:21.062 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:12:21.081 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:12:21.097 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+17:12:21.113 [http-nio-8080-exec-8] INFO  NewspaperController[getAll:35] - LoggerService done
+17:12:21.129 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+17:12:21.146 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:12:21.163 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+17:12:21.180 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+17:12:21.197 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:12:21.213 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+17:12:24.830 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:12:24.846 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:12:24.864 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+17:12:24.881 [http-nio-8080-exec-8] INFO  NewspaperController[getAll:35] - LoggerService done
+17:12:24.897 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+17:12:24.914 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:12:24.930 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+17:12:24.947 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+17:12:24.965 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:12:24.980 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+17:12:30.314 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:12:30.330 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:12:30.346 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+17:12:30.364 [http-nio-8080-exec-8] INFO  NewspaperController[getAll:35] - LoggerService done
+17:12:30.380 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+17:12:30.402 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:12:30.418 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+17:12:30.435 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+17:12:30.447 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:12:30.463 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+17:12:30.480 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:12:30.495 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:12:32.548 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+17:12:32.563 [http-nio-8080-exec-8] INFO  NewspaperController[getAll:35] - LoggerService done
+17:12:32.583 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+17:12:32.598 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:12:32.614 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+17:12:32.631 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+17:12:32.645 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:12:32.661 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+17:12:55.283 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+17:12:55.297 [http-nio-8080-exec-8] INFO  NewspaperController[getAll:35] - LoggerService done
+17:12:55.316 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+17:12:55.332 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:12:55.363 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+17:12:55.373 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+17:12:55.384 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:12:55.399 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+17:12:55.414 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:12:55.430 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:12:55.447 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+17:13:05.771 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:13:06.264 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+17:13:07.194 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:13:09.683 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:13:12.550 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:13:13.882 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+17:13:13.897 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+17:13:13.919 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:13:13.941 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+17:13:13.951 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+17:13:13.968 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:13:13.983 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:13:15.437 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:13:17.331 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+17:13:18.999 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+17:13:20.400 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+17:13:20.415 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:13:20.430 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+17:13:20.448 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+17:13:20.464 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:13:20.481 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:13:20.497 [http-nio-8080-exec-8] INFO  NewspaperController[getAll:35] - LoggerService done
+17:13:20.513 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:13:20.530 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+17:13:24.609 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:13:25.131 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+17:13:28.281 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:13:30.872 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:13:32.601 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:13:32.619 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+17:13:32.630 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+17:13:32.650 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+17:13:32.664 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+17:13:32.680 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:13:32.697 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+17:13:32.717 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:13:32.733 [http-nio-8080-exec-8] INFO  NewspaperController[getAll:35] - LoggerService done
+17:13:35.156 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+17:13:35.162 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+17:13:35.168 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+17:13:35.173 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+17:13:35.178 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:13:35.183 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+17:13:35.188 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:13:35.193 [http-nio-8080-exec-8] INFO  NewspaperController[getAll:35] - LoggerService done
+17:13:35.199 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:13:35.320 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:13:36.855 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+17:13:36.900 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+17:13:36.910 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+17:13:36.922 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:13:36.934 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+17:13:36.940 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:13:36.950 [http-nio-8080-exec-8] INFO  NewspaperController[getAll:35] - LoggerService done
+17:13:36.965 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:13:36.980 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+17:13:39.285 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:13:39.897 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+17:13:40.282 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+17:13:40.598 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+17:13:41.649 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:13:42.449 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+17:13:46.336 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:13:47.733 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+17:13:49.621 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:13:51.282 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+17:13:54.171 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+17:13:56.282 [http-nio-8080-exec-8] INFO  NewspaperController[getAll:35] - LoggerService done
+17:13:58.361 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:00.415 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:01.581 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:03.308 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:05.603 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:05.614 [http-nio-8080-exec-8] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:05.622 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:05.628 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:06.014 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:07.744 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:09.616 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:11.100 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:12.451 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:12.465 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:12.481 [http-nio-8080-exec-8] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:12.498 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:12.518 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:12.540 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:12.552 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:12.564 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:12.581 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:12.598 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:12.614 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:16.931 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:19.260 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:21.032 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:22.284 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:23.199 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:23.215 [http-nio-8080-exec-8] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:23.231 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:23.249 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:23.265 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:23.281 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:23.297 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:24.570 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:26.203 [http-nio-8080-exec-8] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:26.222 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:26.235 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:26.248 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:26.265 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:26.281 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:26.298 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:26.314 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:26.331 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:27.850 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:27.867 [http-nio-8080-exec-8] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:27.883 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:27.899 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:27.916 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:27.935 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:27.949 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:27.966 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:27.982 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:27.999 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:28.016 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:28.032 [http-nio-8080-exec-8] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:28.953 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:28.972 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:28.982 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:28.997 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:29.015 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:29.031 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:29.048 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:29.065 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:29.081 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:29.098 [http-nio-8080-exec-8] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:29.115 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:29.132 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:29.148 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:30.252 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:30.265 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:30.281 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:30.298 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:30.314 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:30.331 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:30.348 [http-nio-8080-exec-8] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:30.365 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:30.381 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:30.398 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:30.414 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:30.431 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:37.865 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:51.248 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:54.172 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:54.191 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:54.201 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:54.214 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:54.233 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:54.250 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:54.266 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:54.283 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:56.188 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:56.207 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:56.219 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:56.231 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:56.249 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:56.265 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:56.282 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:56.301 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:56.322 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:56.336 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:56.352 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:56.365 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:56.383 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:56.399 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:57.332 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:58.466 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:14:59.850 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+17:15:00.817 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:15:00.833 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+17:15:00.849 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+17:15:00.865 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:15:00.882 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+17:15:00.899 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+17:15:00.918 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:15:00.933 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:15:00.951 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+17:15:00.964 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:16:08.584 [http-nio-8080-exec-8] ERROR [dispatcherServlet][log:175] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:283)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:309)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:484)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readFully(SSLSocketInputRecord.java:467)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.decodeInputRecord(SSLSocketInputRecord.java:243)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.decode(SSLSocketInputRecord.java:181)
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:111)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1509)
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1480)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1065)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:244)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:284)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
+	at java.base/sun.net.www.MeteredStream.read(MeteredStream.java:141)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:132)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection$HttpInputStream.read(HttpURLConnection.java:3682)
+	at java.base/java.util.zip.InflaterInputStream.fill(InflaterInputStream.java:242)
+	at java.base/java.util.zip.InflaterInputStream.read(InflaterInputStream.java:158)
+	at java.base/java.util.zip.GZIPInputStream.read(GZIPInputStream.java:117)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:106)
+	at org.jsoup.helper.DataUtil.readToByteBuffer(DataUtil.java:158)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:707)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:628)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:260)
+	at org.jsoup.helper.HttpConnection.get(HttpConnection.java:249)
+	at com.newspapers.controller.NewspaperController.get(NewspaperController.java:60)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+17:17:22.631 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:17:26.015 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:17:33.049 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:17:35.021 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+17:17:40.052 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:17:41.256 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+17:17:41.277 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:17:41.288 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+17:17:41.302 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:17:41.321 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+17:17:41.336 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:17:41.351 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+17:17:47.642 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+17:19:31.558 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+17:20:06.713 [http-nio-8080-exec-8] INFO  NewspaperController[getAll:35] - LoggerService done
+17:20:11.541 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+17:20:11.558 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+17:20:18.204 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:20:22.526 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+17:20:22.549 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+17:20:22.561 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:20:22.573 [http-nio-8080-exec-8] INFO  NewspaperController[getAll:35] - LoggerService done
+17:20:22.588 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+17:20:22.611 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+17:20:22.626 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:20:22.639 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:20:22.654 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+17:20:22.671 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:20:22.688 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+17:20:22.708 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+17:20:22.723 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:20:24.357 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+17:20:24.371 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:20:24.388 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:20:24.405 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+17:20:24.422 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:20:24.439 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+17:20:24.457 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+17:20:24.474 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:20:24.489 [http-nio-8080-exec-8] INFO  NewspaperController[getAll:35] - LoggerService done
+17:20:24.505 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+17:20:24.522 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+17:20:24.538 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:20:24.570 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:20:26.543 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+17:20:27.691 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+17:20:29.488 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+17:20:29.507 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:20:31.188 [http-nio-8080-exec-8] INFO  NewspaperController[getAll:35] - LoggerService done
+17:20:31.204 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+17:20:31.220 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+17:20:31.240 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:20:31.257 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:20:31.270 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:20:31.290 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+17:20:31.305 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+17:20:31.324 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+17:20:33.889 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:20:34.211 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+17:20:35.823 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:20:40.274 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:21:27.015 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+17:21:30.609 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+17:21:34.009 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:21:37.147 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+17:21:37.152 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:21:37.158 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:21:37.163 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:21:37.168 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+17:21:37.176 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+17:21:37.181 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+17:21:37.186 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:21:37.191 [http-nio-8080-exec-8] INFO  NewspaperController[getAll:35] - LoggerService done
+17:21:37.941 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+17:21:38.424 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+17:21:38.878 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:21:39.275 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:21:39.641 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:21:40.107 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+17:24:02.686 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+17:24:09.179 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:24:11.127 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+17:24:13.731 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+17:24:15.932 [http-nio-8080-exec-8] INFO  NewspaperController[getAll:35] - LoggerService done
+17:25:51.774 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:26:21.059 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+17:28:35.321 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+17:28:36.604 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:28:43.821 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+17:28:44.549 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:29:05.118 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:29:06.638 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:29:07.866 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:29:08.942 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+17:29:13.068 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+17:29:21.200 [http-nio-8080-exec-8] INFO  NewspaperController[getAll:35] - LoggerService done
+17:29:22.585 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:29:29.486 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+17:29:29.503 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+17:29:29.517 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:29:29.533 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:29:29.551 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:29:29.568 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+17:29:29.584 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+17:29:29.600 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+17:29:29.617 [http-nio-8080-exec-8] INFO  NewspaperController[getAll:35] - LoggerService done
+17:29:29.634 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:29:29.659 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+17:35:54.333 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:35:57.878 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+17:35:59.111 [http-nio-8080-exec-8] INFO  NewspaperController[getAll:35] - LoggerService done
+17:36:00.364 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:36:00.388 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+17:36:00.398 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:36:00.411 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+17:36:00.425 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:36:00.442 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:36:00.458 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+17:36:00.476 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+17:36:00.491 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+17:36:00.508 [http-nio-8080-exec-8] INFO  NewspaperController[getAll:35] - LoggerService done
+17:36:00.524 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:36:00.541 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+17:36:02.704 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:36:03.214 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:36:03.237 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:36:03.253 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+17:36:05.266 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+17:36:07.237 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+17:36:08.608 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:36:11.043 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:36:13.813 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:36:13.831 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+17:36:13.848 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+17:36:13.860 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+17:36:13.876 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:36:13.892 [http-nio-8080-exec-8] INFO  NewspaperController[getAll:35] - LoggerService done
+17:36:13.909 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+17:36:13.924 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+17:36:13.942 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:36:13.958 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:36:18.464 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+17:36:27.429 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:36:28.529 [http-nio-8080-exec-8] INFO  NewspaperController[getAll:35] - LoggerService done
+17:37:21.330 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+17:37:23.178 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:37:25.538 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:37:44.954 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+17:37:48.978 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:37:51.071 [http-nio-8080-exec-8] INFO  NewspaperController[getAll:35] - LoggerService done
+17:37:51.084 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+17:37:51.099 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:37:51.133 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+17:37:51.145 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:37:51.175 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+17:37:51.202 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:38:28.056 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+17:38:29.046 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:38:34.366 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+17:38:41.113 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:38:48.543 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+17:38:48.555 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:38:48.564 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+17:38:48.584 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:38:48.599 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+17:38:48.614 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+17:38:48.630 [http-nio-8080-exec-8] INFO  NewspaperController[getAll:35] - LoggerService done
+17:38:48.647 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:38:48.681 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+17:38:48.690 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:38:48.701 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+17:40:52.422 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:40:58.380 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:41:07.099 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:42:58.474 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+17:43:01.010 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+17:43:10.707 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+17:43:18.057 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:43:18.066 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+17:43:18.073 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:43:23.808 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:43:26.607 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+17:43:39.070 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:43:39.085 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+17:43:39.106 [http-nio-8080-exec-8] INFO  NewspaperController[getAll:35] - LoggerService done
+17:43:39.124 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+17:43:39.137 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+17:43:39.154 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:43:39.172 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+17:43:39.192 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:43:39.210 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:43:39.223 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+17:43:39.245 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:43:39.285 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+17:43:39.670 [http-nio-8080-exec-8] INFO  NewspaperController[getAll:35] - LoggerService done
+17:43:39.685 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+17:43:39.702 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+17:43:39.723 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:43:39.738 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:43:39.758 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:43:39.771 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:43:39.787 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+17:43:40.211 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:43:40.231 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+17:43:40.242 [http-nio-8080-exec-8] INFO  NewspaperController[getAll:35] - LoggerService done
+17:43:40.258 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+17:43:40.276 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+17:43:40.296 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+17:43:40.331 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:43:40.351 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:43:40.363 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:43:40.386 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+17:43:40.413 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:43:41.305 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+17:43:41.325 [http-nio-8080-exec-8] INFO  NewspaperController[getAll:35] - LoggerService done
+17:43:41.337 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+17:43:41.354 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+17:43:41.371 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+17:43:41.392 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:43:41.566 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:43:41.572 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:43:41.579 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+17:43:41.629 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:43:41.638 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+17:43:41.972 [http-nio-8080-exec-8] INFO  NewspaperController[getAll:35] - LoggerService done
+17:43:41.989 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+17:43:42.024 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+17:43:42.044 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+17:43:42.059 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:43:42.082 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:43:42.097 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:43:42.108 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+17:43:42.134 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:44:27.921 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+17:44:29.107 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+17:44:29.122 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+17:44:30.126 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+17:44:34.771 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:44:37.755 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:44:40.654 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+17:44:43.205 [http-nio-8080-exec-8] INFO  NewspaperController[getAll:35] - LoggerService done
+17:44:43.224 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+17:44:43.245 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+17:44:43.260 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:44:43.281 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+17:44:45.094 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:44:45.108 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+17:44:45.122 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:44:45.145 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:44:45.163 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+17:44:45.178 [http-nio-8080-exec-8] INFO  NewspaperController[getAll:35] - LoggerService done
+17:44:45.196 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+17:44:45.213 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+17:44:45.227 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:44:46.203 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+17:44:46.219 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:44:46.238 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+17:44:46.262 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:44:46.277 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:44:46.299 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+17:44:46.309 [http-nio-8080-exec-8] INFO  NewspaperController[getAll:35] - LoggerService done
+17:44:46.326 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+17:44:46.343 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+17:44:46.377 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:44:46.392 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+17:44:46.413 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:44:47.328 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+17:44:47.341 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:44:47.359 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:44:47.380 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+17:44:47.393 [http-nio-8080-exec-8] INFO  NewspaperController[getAll:35] - LoggerService done
+17:44:47.412 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+17:44:47.431 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+17:44:49.622 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:44:49.638 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+17:44:49.660 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:44:49.677 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+17:44:49.689 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:44:49.732 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:44:49.740 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+17:44:49.752 [http-nio-8080-exec-8] INFO  NewspaperController[getAll:35] - LoggerService done
+17:44:49.770 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+17:44:49.783 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+17:44:49.813 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:44:52.787 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+17:44:52.805 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:44:52.824 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+17:44:52.844 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:44:52.857 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:44:52.876 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+17:44:52.889 [http-nio-8080-exec-8] INFO  NewspaperController[getAll:35] - LoggerService done
+17:44:52.911 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+17:44:52.941 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+17:44:52.957 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:44:52.970 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+17:44:52.989 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:48:59.058 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:49:02.815 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+17:49:02.828 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:49:25.065 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:49:31.295 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:49:36.287 [http-nio-8080-exec-8] INFO  NewspaperController[getAll:35] - LoggerService done
+17:49:43.431 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:49:43.450 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+17:49:49.328 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:49:49.346 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+17:49:49.370 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:49:49.382 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:49:49.401 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+17:49:50.944 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+17:49:50.960 [http-nio-8080-exec-8] INFO  NewspaperController[getAll:35] - LoggerService done
+17:49:50.979 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+17:49:51.001 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:49:51.017 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+17:49:51.030 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:49:51.045 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+17:49:51.069 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:49:51.091 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:50:26.327 [http-nio-8080-exec-8] INFO  NewspaperController[getAll:35] - LoggerService done
+17:51:17.626 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:51:17.668 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+17:52:21.803 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+17:52:22.172 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:52:27.485 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+17:52:27.500 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:52:34.187 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:52:34.201 [http-nio-8080-exec-6] INFO  NewspaperController[getAll:35] - LoggerService done
+17:52:34.215 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+17:52:34.235 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+17:52:34.252 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+17:52:34.268 [http-nio-8080-exec-8] INFO  NewspaperController[getAll:35] - LoggerService done
+17:52:34.286 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:52:34.303 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+17:52:34.322 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:52:34.339 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+17:52:34.351 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:56:01.397 [http-nio-8080-exec-7] INFO  NewspaperController[getAll:35] - LoggerService done
+17:56:01.412 [http-nio-8080-exec-4] INFO  NewspaperController[getAll:35] - LoggerService done
+17:56:01.422 [http-nio-8080-exec-8] INFO  NewspaperController[getAll:35] - LoggerService done
+17:56:01.440 [http-nio-8080-exec-1] INFO  NewspaperController[getAll:35] - LoggerService done
+17:56:01.463 [http-nio-8080-exec-10] INFO  NewspaperController[getAll:35] - LoggerService done
+17:56:01.484 [http-nio-8080-exec-5] INFO  NewspaperController[getAll:35] - LoggerService done
+17:56:01.498 [http-nio-8080-exec-9] INFO  NewspaperController[getAll:35] - LoggerService done
+17:56:01.526 [http-nio-8080-exec-3] INFO  NewspaperController[getAll:35] - LoggerService done
+17:56:01.547 [http-nio-8080-exec-2] INFO  NewspaperController[getAll:35] - LoggerService done
+17:56:19.652 [SpringApplicationShutdownHook] INFO  LocalContainerEntityManagerFactoryBean[destroy:650] - Closing JPA EntityManagerFactory for persistence unit 'default'
+17:56:19.658 [SpringApplicationShutdownHook] INFO  HikariDataSource[close:350] - HikariPool-1 - Shutdown initiated...
+17:56:19.661 [SpringApplicationShutdownHook] INFO  HikariDataSource[close:352] - HikariPool-1 - Shutdown completed.
