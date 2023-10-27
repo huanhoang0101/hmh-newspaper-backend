@@ -8,9 +8,7 @@ import org.jsoup.select.Elements;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.scheduling.annotation.Scheduled;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 import java.io.IOException;
@@ -20,13 +18,11 @@ import java.util.Date;
 import java.util.List;
 
 @CrossOrigin(origins = "http://localhost:4200")
-//@EnableScheduling
-@Controller
+@RestController
 @RequestMapping("/api")
 public class NewspaperController {
     @Autowired
     private NewspaperService newspaperService;
-    private int i = 0;
 
     @GetMapping("/get")
     public ResponseEntity<List<Newspaper>> getAll() {
@@ -34,8 +30,8 @@ public class NewspaperController {
     }
 
     //get list newspaper from web
-    //@Scheduled(fixedRate = 1000 * 60 * 5)
-    @GetMapping("/ok")
+    @Scheduled(fixedRate = 1000 * 60 * 30)
+    @GetMapping("/add")
     public ResponseEntity<List<Newspaper>> get() throws IOException {
         String link = "https://tuoitre.vn";
         List<Newspaper> list = new ArrayList<>();
@@ -64,14 +60,6 @@ public class NewspaperController {
                 }
             }
         }
-        i++;
-        System.out.println("Chay lan thu " + i);
         return new ResponseEntity<>(newspaperService.addListNewspaper(list), HttpStatus.OK);
     }
-
-//    @Scheduled(fixedRate = 5000) //* 60 * 10)
-//    public void is() {
-//        i++;
-//        System.out.println("Chay lan thu " + i);
-//    }
 }
